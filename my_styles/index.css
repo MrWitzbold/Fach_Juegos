@@ -39,10 +39,12 @@ video
     background:#b44646;
 }
 .nav-link,
+
 .navbar-brand {
     color: #fff;
     cursor: pointer;
 }
+
 .nav-link {
     margin-right: 1em !important;
 }
@@ -55,6 +57,11 @@ video
 .nav-item
 {
     font-size: 25px;
+}
+
+.fach_title
+{
+    color: rgb(0, 0, 0);
 }
 
 .game_categories
@@ -96,4 +103,12 @@ h2
     background-color: rgb(35, 50, 134, 0.6);
     z-index: 4;
     margin-top: 360px;
+}
+
+.ad_container_vertical_banner_div_title
+{
+    background-color: rgba(8, 31, 161, 0.6);
+    color: white;
+    align-content: center;
+    font-size: 35px;
 }
