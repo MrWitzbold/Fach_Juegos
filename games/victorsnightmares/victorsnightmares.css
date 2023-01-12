@@ -113,7 +113,7 @@ h2
     font-size: 35px;
 }
 
-.games
+.game_container
 {
     position: absolute;
     width: 60%;
@@ -130,27 +130,4 @@ h2
     color: white;
     align-content: center;
     font-size: 35px;
-}
-
-.games_grid
-{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
-
-.game
-{
-    background-color: coral;
-    width: 200px;
-    height: 200px;
-    margin-left: 7px;
-}
-
-.game_title
-{
-    height: 25px;
-    background-color: rgba(255, 72, 0, 0.616);
-    color: white;
-    text-align: center;
 }
