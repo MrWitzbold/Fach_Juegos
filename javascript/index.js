@@ -24,7 +24,7 @@ document.getElementById('navigationbar').innerHTML += '' +
 '                        <a class="nav-link" href="#">Games</a>' + 
 '                    </li>' + 
 '                    <li class="nav-item">' + 
-'                        <a class="nav-link" href="about.html">About</a>' + 
+'                        <a class="nav-link" href="pages/about.html">About</a>' + 
 '                    </li>' + 
 '                    <li class="nav-item">' + 
 '                        <a class="nav-link" href="#">Contact</a>' + 

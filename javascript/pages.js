@@ -7,7 +7,7 @@ ready(() => {
 })
 
 document.getElementById('navigationbar').innerHTML += '' +
-'<img class="navbar-brand" src="../../assets/logo.png" width="120" height="120"></img>' +
+'<img class="navbar-brand" src="../assets/logo.png" width="120" height="120"></img>' +
 '            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">' + 
 '                <span class="navbar-toggler-icon"></span>' + 
 '            </button>' + 
@@ -17,14 +17,14 @@ document.getElementById('navigationbar').innerHTML += '' +
 '                        <h1 class="fach_title">Fach Juegos!&nbsp-&nbsp</h1>' + 
 '                    </li>' + 
 '                    <li class="nav-item">' + 
-'                        <a class="nav-link" href="../../index.html">Home</a>' + 
+'                        <a class="nav-link" href="../index.html">Home</a>' + 
 '                    </li>' + 
 
 '                    <li class="nav-item">' + 
 '                        <a class="nav-link" href="#">Games</a>' + 
 '                    </li>' + 
 '                    <li class="nav-item">' + 
-'                        <a class="nav-link" href="../../pages/about.html">About</a>' + 
+'                        <a class="nav-link" href="../pages/about.html">About</a>' + 
 '                    </li>' + 
 '                    <li class="nav-item">' + 
 '                        <a class="nav-link" href="#">Contact</a>' + 
