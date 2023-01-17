@@ -74,6 +74,12 @@ video
     margin-top: 20px;
 }
 
+.minecraft
+{
+    position: absolute;
+    z-index: 4;
+}
+
 h2
 {
     text-align: center;

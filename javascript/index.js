@@ -8,6 +8,14 @@ ready(() => {
 
 class games {
     constructor(games_list) {
+      this.minecraft = '' +
+      '<div class="game">' + 
+      '<div class="game_title">' + 
+      '<p style="font-size: 17px">Minecraft</p>' + 
+      '</div>' + 
+      '<a href="../Fach_Juegos/games/minecraft/minecraft.html"><img width="200px" height="200px" src="assets/minecraft.png"></img></a>' + 
+      '</div>'
+
       this.victorsnightmares = '' +
       '<div class="game">' + 
       '<div class="game_title">' + 
@@ -72,7 +80,7 @@ class games {
       '<a href="../Fach_Juegos/games/pokemon_ruby/pokemon_ruby.html"><img width="200px" height="200px" src="assets/pokemon_ruby.png"></img></a>' + 
       '</div>'
 
-       this.games_list = [this.victorsnightmares, this.victor_nightmares2, this.victor_nightmares3, this.victor_nightmares5, this.kick_buttowski, this.thirteen_days_in_hell, this.bloons_td, this.pokemon_ruby]
+       this.games_list = [this.minecraft, this.victorsnightmares, this.victor_nightmares2, this.victor_nightmares3, this.victor_nightmares5, this.kick_buttowski, this.thirteen_days_in_hell, this.bloons_td, this.pokemon_ruby]
     }
   }
 
