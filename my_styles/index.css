@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: 'Determination Sans';
-    src: url('../assets/fonts/cool.ttf') format('truetype');
+    src: url('../assets/fonts/Perfect\ DOS\ VGA\ 437\ Win.ttf') format('truetype');
 }
 
 body
@@ -28,7 +28,7 @@ h1
 {
     color: rgb(255, 255, 153);
     font-family: "Determination Sans";   
-    font-size: 20px;
+    font-size: 44px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -39,7 +39,7 @@ h2
     font-family: "Determination Sans";   
     font-size: 20px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 iframe
@@ -51,9 +51,9 @@ iframe
 h2 a 
 {
     text-decoration: underline; /* remove underline */
-    color:rgb(74, 255, 99); /* inherit the color of the parent element */
-    text-underline-position: under;
-    text-underline-offset: 7px;
+    color:rgb(255, 255, 153); /* inherit the color of the parent element */
+    font-size: 40;
+    text-underline-offset: 5px;
 }
 
 img
